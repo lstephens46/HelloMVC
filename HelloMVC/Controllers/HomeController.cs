@@ -8,6 +8,7 @@ using HelloMVC.Models;
 
 namespace HelloMVC.Controllers
 {
+    //Home Controller inherits from Controller class object
     public class HomeController : Controller
     {
         public IActionResult Index()
